@@ -8,7 +8,8 @@ namespace WebsiteParsing.Domain.Entities
         [Key]
         public Guid Id { get; set; }
         public string ModelName { get; set; }
-        public DateTimeRange DateRange {  get; set; }
+        public int ModelCode {  get; set; }
+        public DateTime DateRange {  get; set; }
         public ICollection<Equipment> Equipment {  get; set; }
     }
 }

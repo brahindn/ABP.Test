@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebsiteParsing.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f92fdf5c9ef9947f7b43ec6b43fb5e524cdec108")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebsiteParsing.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebsiteParsing.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

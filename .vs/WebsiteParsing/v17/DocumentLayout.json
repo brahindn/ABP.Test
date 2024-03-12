@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\TestTasks\\WebsiteParsing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.dataaccess\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|solutionrelative:websiteparsing.dataaccess\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "WebsiteParsing.Console\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T22:15:32.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.DataAccess\\RepositoryContext.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\RepositoryContext.cs",
+              "RelativeToolTip": "WebsiteParsing.DataAccess\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T21:09:46.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Startup.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
+              "RelativeToolTip": "WebsiteParsing.Console\\Startup.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T21:09:12.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Program.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
+              "RelativeToolTip": "WebsiteParsing.Console\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T14:37:41.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1172,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
