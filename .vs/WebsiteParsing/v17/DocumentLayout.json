@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\TestTasks\\WebsiteParsing\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.application\\services\\implementation\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|solutionrelative:websiteparsing.application\\services\\implementation\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.domain\\entities\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|solutionrelative:websiteparsing.domain\\entities\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.application\\services\\implementation\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|solutionrelative:websiteparsing.application\\services\\implementation\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|solutionrelative:websiteparsing.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.application\\services\\implementation\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB261390-75BA-470D-8A53-E54A4B42D179}|WebsiteParsing.Application\\WebsiteParsing.Application.csproj|solutionrelative:websiteparsing.application\\services\\implementation\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.dataaccess\\entityconfiguration\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|solutionrelative:websiteparsing.dataaccess\\entityconfiguration\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +67,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Domain\\Entities\\Car.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Car.cs",
+              "RelativeToolTip": "WebsiteParsing.Domain\\Entities\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:52:09.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Startup.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
+              "RelativeToolTip": "WebsiteParsing.Console\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:48:59.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Application\\Services\\Implementation\\Services\\CarService.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\Services\\CarService.cs",
+              "RelativeToolTip": "WebsiteParsing.Application\\Services\\Implementation\\Services\\CarService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:37:57.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Equipment.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Domain\\Entities\\Equipment.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Equipment.cs",
+              "RelativeToolTip": "WebsiteParsing.Domain\\Entities\\Equipment.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:13:33.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Application\\Services\\Implementation\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "WebsiteParsing.Application\\Services\\Implementation\\Services\\EquipmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:37:30.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Application\\Services\\Implementation\\ServiceManager.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Application\\Services\\Implementation\\ServiceManager.cs",
+              "RelativeToolTip": "WebsiteParsing.Application\\Services\\Implementation\\ServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:26:43.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Program.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
+              "RelativeToolTip": "WebsiteParsing.Console\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:24:18.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarConfiguration.cs",
+              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\EntityConfiguration\\CarConfiguration.cs",
+              "RelativeDocumentMoniker": "WebsiteParsing.DataAccess\\EntityConfiguration\\CarConfiguration.cs",
+              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\EntityConfiguration\\CarConfiguration.cs",
+              "RelativeToolTip": "WebsiteParsing.DataAccess\\EntityConfiguration\\CarConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:15:48.898Z",
+              "EditorCaption": ""
             }
           ]
         },

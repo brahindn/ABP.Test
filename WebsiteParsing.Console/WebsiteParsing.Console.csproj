@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebsiteParsing.Application\WebsiteParsing.Application.csproj" />
     <ProjectReference Include="..\WebsiteParsing.DataAccess\WebsiteParsing.DataAccess.csproj" />
   </ItemGroup>
 

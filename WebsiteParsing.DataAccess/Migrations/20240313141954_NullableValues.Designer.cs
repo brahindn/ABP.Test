@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebsiteParsing.DataAccess;
 
@@ -11,9 +12,11 @@ using WebsiteParsing.DataAccess;
 namespace WebsiteParsing.DataAccess.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240313141954_NullableValues")]
+    partial class NullableValues
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,7 +31,7 @@ namespace WebsiteParsing.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime?>("DateRange")
+                    b.Property<DateTime>("DateRange")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ModelCode")
@@ -41,8 +44,7 @@ namespace WebsiteParsing.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ModelName", "ModelCode", "DateRange")
-                        .IsUnique()
-                        .HasFilter("[DateRange] IS NOT NULL");
+                        .IsUnique();
 
                     b.ToTable("Cars");
                 });
