@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WebsiteParsing.Console.Extensions;
 using WebsiteParsing.DataAccess;
 
 namespace WebsiteParsing
@@ -22,7 +21,7 @@ namespace WebsiteParsing
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(Config);
-            services.ConfigureSqlContext();
+            services.AddDbContext<RepositoryContext>(options => options.UseSqlServer(Config.GetConnectionString("DefaultConnection")));
         }
     }
 }

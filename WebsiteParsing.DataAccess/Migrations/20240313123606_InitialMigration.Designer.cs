@@ -12,8 +12,8 @@ using WebsiteParsing.DataAccess;
 namespace WebsiteParsing.DataAccess.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240312212054_InitialMingration")]
-    partial class InitialMingration
+    [Migration("20240313123606_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
