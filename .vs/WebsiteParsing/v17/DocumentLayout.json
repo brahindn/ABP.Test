@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\TestTasks\\WebsiteParsing\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.dataaccess\\migrations\\20240313123606_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|solutionrelative:websiteparsing.dataaccess\\migrations\\20240313123606_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.dataaccess\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF29DB40-D9E6-4BA6-BFA6-0AA214E7733E}|WebsiteParsing.DataAccess\\WebsiteParsing.DataAccess.csproj|solutionrelative:websiteparsing.dataaccess\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,58 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240313123606_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\Migrations\\20240313123606_InitialMigration.cs",
-              "RelativeDocumentMoniker": "WebsiteParsing.DataAccess\\Migrations\\20240313123606_InitialMigration.cs",
-              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\Migrations\\20240313123606_InitialMigration.cs",
-              "RelativeToolTip": "WebsiteParsing.DataAccess\\Migrations\\20240313123606_InitialMigration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T12:36:06.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
-              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Startup.cs",
-              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Startup.cs",
-              "RelativeToolTip": "WebsiteParsing.Console\\Startup.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T21:09:12.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
-              "RelativeDocumentMoniker": "WebsiteParsing.Console\\Program.cs",
-              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
-              "RelativeToolTip": "WebsiteParsing.Console\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T14:37:41.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "WebsiteParsing.DataAccess\\RepositoryContext.cs",
-              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.DataAccess\\RepositoryContext.cs",
-              "RelativeToolTip": "WebsiteParsing.DataAccess\\RepositoryContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA/wB4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T21:09:46.749Z",
-              "EditorCaption": ""
             }
           ]
         },
