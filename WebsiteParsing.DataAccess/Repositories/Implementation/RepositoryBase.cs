@@ -1,4 +1,5 @@
-﻿using WebsiteParsing.DataAccess.Repositories.Contracts;
+﻿using System.Linq.Expressions;
+using WebsiteParsing.DataAccess.Repositories.Contracts;
 
 namespace WebsiteParsing.DataAccess.Repositories.Implementation
 {
@@ -14,6 +15,11 @@ namespace WebsiteParsing.DataAccess.Repositories.Implementation
         public void Create(T entity)
         {
             RepositoryContext.Set<T>().Add(entity);
+        }
+
+        public IQueryable<T> FindCondition(Expression<Func<T, bool>> expression)
+        {
+            return RepositoryContext.Set<T>().Where(expression);
         }
     }
 }

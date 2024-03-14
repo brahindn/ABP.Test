@@ -13,15 +13,19 @@ namespace WebsiteParsing.Application.Services.Implementation.Services
             _repositoryManager = repositoryManager;
         }
 
-        public async Task CreateEquipmentAsync(string equipmentName, string engine, string body, string grade, string transmission, string gearShiftType, string cab, string transmissionModel, string loadingCapacity)
+        public async Task CreateEquipmentAsync(int codeModel, string equipmentName, string engine, string body, string grade, string transmission, string gearShiftType, string cab, string transmissionModel, string loadingCapacity)
         {
-            if(string.IsNullOrEmpty(equipmentName))
+            var existCar = await _repositoryManager.Car.GetCarByCodeModelAsync(codeModel);
+
+            if (existCar == null || string.IsNullOrEmpty(equipmentName))
             {
-                throw new ArgumentException("EquipmentName cannot be null or empty");
+                throw new ArgumentException("CodModel and EquipmentName cannot be null or empty");
             }
 
             var equipment = new Equipment
             {
+                CarId = existCar.Id,
+                CodeModel = codeModel,
                 EquipmentName = equipmentName,
                 Engine = engine,
                 Body = body,

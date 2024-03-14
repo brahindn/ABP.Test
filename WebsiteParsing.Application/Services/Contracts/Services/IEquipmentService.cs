@@ -2,6 +2,6 @@
 {
     public interface IEquipmentService
     {
-        Task CreateEquipmentAsync(string equipmentName, string engine, string body, string grade, string transmission, string gearShiftType, string cab, string transmissionModel, string loadingCapacity);
+        Task CreateEquipmentAsync(int codeModel, string equipmentName, string engine, string body, string grade, string transmission, string gearShiftType, string cab, string transmissionModel, string loadingCapacity);
     }
 }

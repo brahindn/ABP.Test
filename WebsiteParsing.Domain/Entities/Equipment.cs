@@ -7,6 +7,7 @@ namespace WebsiteParsing.Domain.Entities
     {
         [Key]
         public Guid Id {  get; set; }
+        public int CodeModel {  get; set; }
         public string EquipmentName { get; set; }
         public string? Engine { get; set; }
         public string? Body {  get; set; }
