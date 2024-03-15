@@ -1,7 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
-using System.Collections.Generic;
-using System.Diagnostics;
 using WebsiteParsing;
 using WebsiteParsing.Application.Services.Contracts;
 
@@ -16,16 +13,13 @@ var mainAddress = "https://www.ilcats.ru/toyota/?function=getModels&market=EU";
 
 var dataCar = GetDataFromModelCar(url: mainAddress);
 
-PushCarInDataBase(dataCar);
-
+//Для економії часу в поле "Дата випуску" вставляеться DataTime.Now (для економії часу.) Тому час кожногу разу різний і БД записує такий результат, що на перший погляд виглядає як запис дублікатів.
 
 Console.ReadLine();
 
 
-static Dictionary<string, string> GetDataFromModelCar(string url)
+async Task GetDataFromModelCar(string url)
 {
-    var carProperties = new Dictionary<string, string>();
-
     try
     {
         using (HttpClientHandler handler = new HttpClientHandler { AllowAutoRedirect = false, AutomaticDecompression = System.Net.DecompressionMethods.All })
@@ -58,9 +52,9 @@ static Dictionary<string, string> GetDataFromModelCar(string url)
                                             try
                                             {
                                                 var carModelName = car.SelectSingleNode(".//div[@class='Header']").InnerText;
-                                                var carModelCode = car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText;
+                                                var carModelCode = int.Parse(car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText);
 
-                                                carProperties.Add(carModelName, carModelCode);
+                                                await serviceManager.CarService.CreateCarAsync(carModelName, carModelCode, DateTime.Now);
                                             }
                                             catch(Exception ex)
                                             {
@@ -79,24 +73,5 @@ static Dictionary<string, string> GetDataFromModelCar(string url)
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message.ToString());
-    }
-
-    return carProperties;
-}
-
-async Task PushCarInDataBase(Dictionary<string, string> dictionary)
-{
-    foreach(var item in dictionary)
-    {
-        var codeModel = int.Parse(item.Value);
-
-        try
-        {
-            await serviceManager.CarService.CreateCarAsync(item.Key, codeModel, DateTime.Now);
-        }
-        catch(Exception ex)
-        {
-            Console.WriteLine(ex.InnerException.Message);
-        }
     }
 }
