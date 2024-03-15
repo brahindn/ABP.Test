@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.Generic;
+using System.Diagnostics;
 using WebsiteParsing;
 using WebsiteParsing.Application.Services.Contracts;
 using static System.Net.WebRequestMethods;
@@ -69,22 +70,29 @@ static Dictionary<string, string> GetDataFromModelCar(string url)
                             HtmlAgilityPack.HtmlDocument document = new HtmlAgilityPack.HtmlDocument();
                             document.LoadHtml(html);
 
-                            var carList = document.DocumentNode.SelectNodes(".//div[@class='ifMultilistBody']//div[@class='List Multilist']/div[@class='Column']");   //Чому не працює?!
+                            var carList = document.DocumentNode.SelectNodes(".//body[@class='toyota']//div[@class='ifMultilistBody']//div[@class='List Multilist']");
 
                             if(carList != null && carList.Count > 0)
                             {
                                 foreach(var list in carList)
                                 {
-                                    var cars = list.SelectNodes(".//div");
+                                    var cars = list.SelectNodes("./div[@class]");
 
                                     if (cars != null && cars.Count > 0)
                                     {
                                         foreach(var car in cars)
                                         {
-                                            var carModelName = car.SelectSingleNode(".//div[@class='Header']").InnerText;
-                                            var carModelCode = car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText;
+                                            try
+                                            {
+                                                var carModelName = car.SelectSingleNode(".//div[@class='Header']").InnerText;
+                                                var carModelCode = car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText;
 
-                                            carProperties.Add(carModelName, carModelCode);
+                                                carProperties.Add(carModelName, carModelCode);
+                                            }
+                                            catch(Exception ex)
+                                            {
+                                                Console.WriteLine(ex.InnerException.Message);
+                                            }
                                         }
                                     } 
                                 }
