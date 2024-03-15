@@ -13,8 +13,6 @@ var mainAddress = "https://www.ilcats.ru/toyota/?function=getModels&market=EU";
 
 var dataCar = GetDataFromModelCar(url: mainAddress);
 
-//Для економії часу в поле "Дата випуску" вставляеться DataTime.Now (для економії часу.) Тому час кожногу разу різний і БД записує такий результат, що на перший погляд виглядає як запис дублікатів.
-
 Console.ReadLine();
 
 
@@ -51,10 +49,13 @@ async Task GetDataFromModelCar(string url)
                                         {
                                             try
                                             {
-                                                var carModelName = car.SelectSingleNode(".//div[@class='Header']").InnerText;
-                                                var carModelCode = int.Parse(car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText);
+                                                var carModelNameString = car.SelectSingleNode(".//div[@class='Header']").InnerText;
+                                                var carModelCodeInt = int.Parse(car.SelectSingleNode(".//div[@class='List ']//div[@class='id']").InnerText);
+                                                var carDateRangeString = car.SelectSingleNode(".//div[@class='dateRange']").InnerText;
 
-                                                await serviceManager.CarService.CreateCarAsync(carModelName, carModelCode, DateTime.Now);
+                                                var dateNormalView = carDateRangeString.Replace("&nbsp;", " ");
+
+                                                await serviceManager.CarService.CreateCarAsync(carModelNameString, carModelCodeInt, dateNormalView);
                                             }
                                             catch(Exception ex)
                                             {

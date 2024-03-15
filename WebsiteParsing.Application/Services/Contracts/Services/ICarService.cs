@@ -2,6 +2,6 @@
 {
     public interface ICarService
     {
-        Task CreateCarAsync(string modelName, int modelCode, DateTime dateRange);
+        Task CreateCarAsync(string modelName, int modelCode, string dateRange);
     }
 }

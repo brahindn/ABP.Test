@@ -13,7 +13,7 @@ namespace WebsiteParsing.Application.Services.Implementation.Services
             _repositoriesManager = repositoriesManager;
         }
 
-        public async Task CreateCarAsync(string modelName, int modelCode, DateTime dateRange)
+        public async Task CreateCarAsync(string modelName, int modelCode, string dateRange)
         {
             if (string.IsNullOrEmpty(modelName) || modelCode == null)
             {

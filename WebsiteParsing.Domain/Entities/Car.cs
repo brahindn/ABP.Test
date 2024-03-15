@@ -1,5 +1,4 @@
-﻿using Abp.Timing;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace WebsiteParsing.Domain.Entities
 {
@@ -9,7 +8,7 @@ namespace WebsiteParsing.Domain.Entities
         public Guid Id { get; set; }
         public string ModelName { get; set; }
         public int ModelCode {  get; set; }
-        public DateTime? DateRange {  get; set; }
+        public string? DateRange {  get; set; }
         public ICollection<Equipment>? Equipment {  get; set; }
     }
 }
