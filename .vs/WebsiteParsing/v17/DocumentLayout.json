@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{981E9414-1CF2-4293-8FCE-3371179628E6}|WebsiteParsing.Console\\WebsiteParsing.Console.csproj|solutionrelative:websiteparsing.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|c:\\projects\\testtasks\\websiteparsing\\websiteparsing.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1943D89-4AA4-4BE9-90D9-D86065B40790}|WebsiteParsing.Domain\\WebsiteParsing.Domain.csproj|solutionrelative:websiteparsing.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,27 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Car.cs",
-              "RelativeDocumentMoniker": "WebsiteParsing.Domain\\Entities\\Car.cs",
-              "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Domain\\Entities\\Car.cs",
-              "RelativeToolTip": "WebsiteParsing.Domain\\Entities\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T18:32:32.959Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
               "RelativeDocumentMoniker": "WebsiteParsing.Console\\Program.cs",
               "ToolTip": "C:\\Projects\\TestTasks\\WebsiteParsing\\WebsiteParsing.Console\\Program.cs",
               "RelativeToolTip": "WebsiteParsing.Console\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBgAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T14:24:18.063Z",
+              "WhenOpened": "2024-03-15T10:11:59.495Z",
               "EditorCaption": ""
             }
           ]

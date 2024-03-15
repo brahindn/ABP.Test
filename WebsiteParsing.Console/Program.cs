@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using WebsiteParsing;
 using WebsiteParsing.Application.Services.Contracts;
-using static System.Net.WebRequestMethods;
 
 var startup = new Startup();
 var services = new ServiceCollection();
@@ -13,40 +12,14 @@ startup.ConfigureServices(services);
 
 var serviceProvider =  services.BuildServiceProvider();
 var serviceManager = serviceProvider.GetRequiredService<IServiceManager>();
-
-await TestDataInDataBase();
-
 var mainAddress = "https://www.ilcats.ru/toyota/?function=getModels&market=EU";
 
 var dataCar = GetDataFromModelCar(url: mainAddress);
 
+PushCarInDataBase(dataCar);
+
 
 Console.ReadLine();
-
-
-
-async Task TestDataInDataBase()
-{
-    try
-    {
-        var date = DateTime.Parse("10/10/2023");
-        await serviceManager.CarService.CreateCarAsync("Audi", 7770777, date);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Something went wrong: {ex.InnerException.Message}");
-    }
-    try
-    {
-        await serviceManager.EquipmentService.CreateEquipmentAsync(7770777, "EquipmentForReallyMen", "Engine_1", "body_1", "4.8", "hell", "gear", "cab_1", "transmissionModel", "loadingCapacity");
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Something went wrong: {ex.InnerException.Message}");
-    }
-
-    Console.WriteLine("Test method is done");
-}
 
 
 static Dictionary<string, string> GetDataFromModelCar(string url)
@@ -109,4 +82,21 @@ static Dictionary<string, string> GetDataFromModelCar(string url)
     }
 
     return carProperties;
+}
+
+async Task PushCarInDataBase(Dictionary<string, string> dictionary)
+{
+    foreach(var item in dictionary)
+    {
+        var codeModel = int.Parse(item.Value);
+
+        try
+        {
+            await serviceManager.CarService.CreateCarAsync(item.Key, codeModel, DateTime.Now);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.InnerException.Message);
+        }
+    }
 }
